@@ -1,0 +1,39 @@
+Build an Advanced Cross-chain, Pay-Per-Intent Web3 Wallet and HTTP 402 API Gateway for Base (Expert Blockchain & UI/UX Level).
+
+As an expert blockchain engineer and UI/UX designer, create a professional full-stack dApp using Solidity, Node.js, and React for the Base network and x402 protocol. The project should demonstrate both technical sophistication and user-centric interface design.
+
+Design and implement a smart contract wallet (ERC-4337 compatible) that processes intents from human users and autonomous AI agents.
+
+Integrate advanced intent parsing (mock LLM logic, for now) to transform user/agent requests (e.g., “swap 2 ETH to USDC with <0.5% slippage”, “fetch top NFT mints last hour”) into contract or API actions.
+
+Apply HTTP 402 pay-per-use flows: backend should respond with HTTP 402 Payment Required and dynamic USDC pricing for each request.
+
+Enable seamless, instant one-time payment with Base wallet integration (MetaMask/Base); after payment, unlock API/data/endpoints (e.g., analytics access, protocol execution, NFT mint).
+
+Architect a React dashboard that exemplifies modern UI/UX best practices—intuitive intent composition, clear payment dialogs, transaction confirmations, access history, and live analytics display.
+
+Smart contract logic must securely custody funds, validate payments, emit on-chain proofs of access, and optionally support MEV/privacy protection on high-value actions.
+
+Backend should provide pluggable API endpoints (mock and live, e.g., NFT mint API, real price oracle query) for demo and extensibility.
+
+Prioritize extensibility for integration of new features (multi-chain routing, zk-proofs, subscription/paywall modules).
+
+Deploy and host the frontend React app on Vercel, with automated deployments linked to a GitHub repository.
+
+Provide deployment scripts/configurations for both Vercel and GitHub CI/CD pipelines.
+
+Expert Notes:
+
+Use Solidity 0.8.x and demonstrate Base L2 deployment or simulation on testnet.
+
+Structure backend with advanced Node.js/Express patterns, frontend in React/TypeScript with TailwindCSS for sleek styling.
+
+Implement wallet flows that clearly distinguish between human users and agents (simulate both).
+
+Design interface flows for instant pay-per-intent unlock, prioritizing minimal friction and clear feedback.
+
+Scaffold to showcase extensible plugin architecture for future tracks (cross-chain, NFT/data marketplaces, privacy relays).
+
+Project Goal:
+
+Present a sophisticated, best-practices Web3 solution showing how HTTP 402-powered, pay-per-use wallet actions—driven by clear, expert-designed interfaces—unlock frictionless, granular, and privacy-preserving access to data, DeFi, NFTs, and APIs on Base. Highlight seamless onboarding for humans and autonomous agents, with reliable and scalable deployment via Vercel for frontend hosting
