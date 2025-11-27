@@ -22,25 +22,6 @@ Perfect for developers who want a **fast, minimal, and structured backend** to b
 - **Typescript-first project**
 
 ---
-
-## 📁 Project Structure
-
-```
-
-IntentWallet/
-│── src/
-│   ├── vite/               # Vite dev server setup + static file serving
-│   ├── routes/             # API route definitions
-│   ├── server.ts           # Main Express server
-│
-│── dist/                   # Production build output
-│── public/                 # Static assets used by Vite
-│── package.json
-│── tsconfig.json
-│── README.md (this file)
-
-````
-
 ---
 
 ## 🛠️ Tech Stack
