@@ -1,11 +1,3 @@
-Got it — I’ll generate a **complete, polished, production-grade README** for your project *IntentWallet*, based entirely on your repo structure, tech stack, and purpose.
-
-Here is the full README.md — **ready to copy-paste** into your GitHub repo.
-
----
-
-# 📄 **README.md (Generated for IntentWallet)**
-
 ```md
 # 🚀 IntentWallet — Minimal Intent-Based Wallet API
 
