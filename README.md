@@ -1,5 +1,5 @@
-```md
-# 🚀 IntentWallet — Minimal Intent-Based Wallet API
+
+## 🚀 IntentWallet — Minimal Intent-Based Wallet API
 
 IntentWallet is a lightweight, modular, and extensible Node.js + Express backend designed for building intent-driven applications.  
 It supports clean API route structuring, automatic request logging, JSON response capturing, Vite-powered frontend development, and production-ready static serving.
