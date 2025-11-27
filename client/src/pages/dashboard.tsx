@@ -28,7 +28,12 @@ export default function Dashboard({ walletAddress, chainId }: DashboardProps) {
     refetchInterval: 5000,
   });
 
-  const { data: stats } = useQuery({
+  const { data: stats } = useQuery<{
+    totalTransactions: number;
+    totalSpent: string;
+    successRate: number;
+    avgResponseTime: string;
+  }>({
     queryKey: ["/api/analytics"],
     refetchInterval: 10000,
   });

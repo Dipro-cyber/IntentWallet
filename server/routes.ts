@@ -97,10 +97,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
           payment.id,
           "confirmed",
           mockTxHash,
-          String(Math.floor(Math.random() * 1000000) + 1000000),
-          "12"
+          Math.floor(Math.random() * 1000000) + 1000000, // number
+          12 // number
         );
-
         let apiResponse;
         switch (endpoint) {
           case "/api/nft-mints":
@@ -138,7 +137,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
           accessGranted: true,
           proofTxHash: mockTxHash,
         });
-      }, 1000);
+      }, 1e3);
 
       res.json({
         success: true,
